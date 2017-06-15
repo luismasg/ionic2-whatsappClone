@@ -4,7 +4,7 @@
       <img class="chat-picture" [src]="picture">
     </ion-buttons>
 
-    <ion-title class="chat-title">{{title}}</ion-title>
+    <ion-title class="chat-title">{{title}} Message-delete</ion-title>
 
     <ion-buttons end>
       <button ion-button icon-only class="attach-button"><ion-icon name="attach"></ion-icon></button>
@@ -12,7 +12,7 @@
     </ion-buttons>
   </ion-navbar>
 </ion-header>
-
+ 
 <ion-content padding class="messages-page-content">
   <ion-scroll scrollY="true" class="messages">
     <div *ngFor="let message of messages | async" class="message-wrapper">

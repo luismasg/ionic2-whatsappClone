@@ -7,7 +7,7 @@ import { Chat, Message, MessageType } from '../../../../imports/models';
 import template from './messages.html';
 
 @Component({
-  template
+  template  
 })
 export class MessagesPage implements OnInit {
   selectedChat: Chat;
